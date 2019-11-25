@@ -1,0 +1,23 @@
+{
+    "name": "vayes/facade",
+    "type": "library",
+    "description": "Provides a base class to access classes via Laravel's facade style.",
+    "keywords": [],
+    "homepage": "https://vayes.com.tr",
+    "license": "MIT",
+    "authors": [
+        {
+          "name": "Yahya Erturan",
+          "email": "yahya@erturan.com.tr"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3"
+    },
+    "autoload": {
+        "psr-4": { "Vayes\\Facade\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    }
+}
